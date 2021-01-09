@@ -5,7 +5,7 @@ diskutil mount /Volumes/Untitled;
 mkdir tmp;
 mv com.apple.ManagedClientAgent.* tmp/;
 mv com.apple.mdmclient.* tmp/;
-cd ../LaunchDaemons
+cd ../LaunchDaemons;
 mkdir tmp;
 mv com.apple.ManagedClient.* tmp/;
 mv com.apple.mdmclient.* tmp/;
